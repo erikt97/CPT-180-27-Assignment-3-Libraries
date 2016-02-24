@@ -41,7 +41,7 @@ and looks like this
 ```
 add_library (<project_name> ${SOURCE_FILES})
 ```
-replaceing `<project_name>` with what is in is in the `project` line of the same file.
+replacing `<project_name>` with what is in is in the `project` line of the same file.
 
 Next you need to test your library. To do so open the projects build directory and copy the .a file and the .h file from your project directory
 to a new folder on your computer.
