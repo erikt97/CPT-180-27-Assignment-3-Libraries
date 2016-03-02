@@ -29,7 +29,7 @@ namespace config_reader {
 
     while(getline(NewInputFile, file_line)) {
         file_contents[i] = file_line;
-        i = i + 1;
+        i = i++;
     }
 
     NewInputFile.close();
