@@ -10,7 +10,7 @@ namespace config_reader {
 
 
     std::ifstream InputFile;
-    InputFile.open("C:\\Users\\Erik Thompson\\.CLion12\\system\\cmake\\generated\\819ddf16\\819ddf16\\Debug\\config.cfg");
+    InputFile.open(config_file_path);
 
     int line_count = 0;
     string file_line;
@@ -22,7 +22,7 @@ namespace config_reader {
     InputFile.close();
 
     std::ifstream NewInputFile;
-    NewInputFile.open("C:\\Users\\Erik Thompson\\.CLion12\\system\\cmake\\generated\\819ddf16\\819ddf16\\Debug\\config.cfg");
+    NewInputFile.open(config_file_path);
 
     int i = 0;
     string file_contents[line_count];
