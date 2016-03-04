@@ -1,8 +1,6 @@
 #include <iostream>
 #include <reader.h>
 
-namespace config_reader{
-
     using std::cout;
     using std::cin;
     using std::string;
@@ -18,7 +16,6 @@ namespace config_reader{
             file_path = "C:\\Users\\Erik Thompson\\.CLion12\\system\\cmake\\generated\\819ddf16\\819ddf16\\Debug\\config.cfg";
         }
 
-        read_config(file_path);
+        config_reader::read_config(file_path);
         return 0;
     }
-}
